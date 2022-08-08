@@ -23,8 +23,19 @@ public class Exercicio8 {
             System.out.println("A ordem dos números é: " + n1 + n2 + n3 + n4 + n5);   
         } else {
         if (n1 < n2 || n3 < n2 || n2 < n3 || n3 < n4 || n4 < n5){
+        } else {
+        if (n1 < n2 || n3 < n2 || n2 > n3 || n3 < n4 || n4 < n5){
            System.out.println("A ordem dos números é: " + n1 + n3 + n2 + n4 + n5);   
+        } else {
+        if (n1 < n2 || n3 < n2 || n2 > n3 || n3 > n4 || n4 < n5){
+           System.out.println("A ordem dos números é: " + n1 + n3 + n2 + n4 + n5);
+        } else {
+        if (n1 < n2 || n3 < n2 || n2 > n3 || n3 > n4 || n4 < n5){
+           System.out.println("A ordem dos números é: " + n1 + n3 + n2 + n4 + n5);
+           }
          }
-      }
-    } 
+       } 
+     }
+   }
+ }
 }
